@@ -35,12 +35,12 @@
     text-shadow: 3px 3px 20px red;
     }
 
-    form > h3{
+    .formulario h3{
     box-shadow: 5px 5px 10px white;
     font-style: italic;
     letter-spacing: 10px;    
-    font-family: "fontNight",sans-serif;    
-    font-size: 80px;    
+    font-family: 'fontNight',sans-serif;    
+    font-size: 60px;    
     color: white;
     text-shadow: 3px 3px 20px red;
     }
@@ -52,26 +52,37 @@
     }
 
     form textarea{
-    font-family: 'times new roman',sans-serif;    
+    font-family: 'times new roman',sans-serif;  
+    width: 400px;  
     font-size: 20px; 
       
+    }
+
+    textarea:hover{
+            background-image: url(../imagens/terrorsobrenatural.jpg);
+            background-position: right;
     }
 
     form input[type=text], form input[type=email]{    
     font-family: 'times new roman',sans-serif;    
     font-size: 20px;
+    width: 350px;
+    height: 50px;
     }
 
-    form .sel option{ 
-    margin: auto;
-    font-size: 20px;    
+    form .sel option{   
+    font-size: 30px;    
     font-family: 'fontTerror2',sans-serif;
     color: red;
     
     }
 
     .sel{
-        width: 150px;
+        width: 300px;
+        margin: 0 30px;
+        font-size: 30px;
+        font-family: 'fontTerror2',sans-serif;
+        color: red;
     }
 
     form input[type=submit]{
