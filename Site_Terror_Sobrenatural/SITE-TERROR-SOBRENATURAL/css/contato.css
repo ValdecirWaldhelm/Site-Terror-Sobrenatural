@@ -21,8 +21,8 @@
     }
 
     form{
+        width: auto;
         height: auto;
-        width: 500px;
         margin: auto;
         text-align: center;
     }

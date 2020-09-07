@@ -56,9 +56,9 @@ section{
     background-color: black;
     box-shadow: 5px 5px 10px white;
     margin-left: 2px;
-    text-align: auto;   
+    text-align: center;   
     text-transform: uppercase;
-    word-spacing: 50px;
+    word-spacing: 40px;
 }
 
 .menu li a{
@@ -101,7 +101,7 @@ section{
     font-size: 25px;
     color: white;
 
-}
+} 
 
   footer#rodape{
         clear: both;
