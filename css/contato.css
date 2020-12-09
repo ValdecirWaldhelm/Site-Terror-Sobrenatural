@@ -1,0 +1,133 @@
+@charset "Utf-8";
+@font-face{
+    font-family: "fontNight";
+    src: url("../font/Night.ttf") format("truetype")
+    }
+@font-face{
+    font-family: "fontTerror";
+    src: url("../font/Terror.ttf") format("truetype")
+    }
+@font-face{
+    font-family: "fontNightmare";
+    src: url("../font/Nightmare.ttf") format("truetype")
+    }
+@font-face{
+    font-family: "fontTerror2";
+    src: url("../font/Terror2.ttf") format("truetype")
+    }
+
+    body{
+        
+    }
+
+    .container{
+        width: 100%;
+        height: 80vh;
+        margin: 0 auto;
+        background-image: url('../imagens/Night\ of\ Terror_banner.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        box-shadow: 10px 50px 100px red ;
+    }
+    div .formulario{
+        margin: 100px;
+    }
+
+    form{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    form legend{
+    font-family: 'fontNightmare',sans-serif;
+    letter-spacing: 5px;    
+    font-size: 45px;
+    color: white;
+    text-shadow: 3px 3px 20px red;
+    }
+
+    .formulario h3{
+    box-shadow: 5px 5px 10px white;
+    font-style: italic;
+    letter-spacing: 10px;    
+    font-family: 'fontNight',sans-serif;    
+    font-size: 60px;    
+    color: white;
+    text-shadow: 3px 3px 20px red;
+    }
+
+    form fieldset{
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px white;
+    padding-bottom: 20px;
+    }
+    
+    form input[type=text], form input[type=email]{    
+    font-family: 'times new roman',sans-serif;    
+    font-size: 20px;
+    width: 40%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+
+    }
+    
+    form .sel option{   
+    font-size: 30px;    
+    font-family: 'fontTerror2',sans-serif;
+    color: red;
+    
+    }
+
+    .sel{
+        width: 300px;
+        margin: 0 30px;
+        font-size: 30px;
+        font-family: 'fontTerror2',sans-serif;
+        color: red;
+    }
+
+    form textarea{
+    font-family: 'times new roman',sans-serif;  
+    width: 60%;  
+    font-size: 20px; 
+      
+    }
+    
+    textarea:hover{
+            background-image: url(../imagens/terrorsobrenatural.jpg);
+            background-position: right;
+    } 
+    
+    form input[type=submit]{
+        letter-spacing: 10px;
+        margin-top: 20px;
+        font-family: 'fontNightmare',sans-serif;
+        font-size: 45px;
+        height: 45px;
+        width: 200px;
+        box-shadow: 5px 5px 10px white;
+        color: white;
+        text-shadow: 5px 5px 10px red;
+        background-color: black;
+        cursor: url('../imagens/cursor\ \(1\).cur'),auto;
+
+    }
+
+    form input[type=submit]:hover{
+        transition: 2s;
+        color: red;
+        text-shadow: 2px 2px 10px red;
+        box-shadow: 5px 5px 10px red;
+    }
+
+    
+
+    
+    
+
+   
