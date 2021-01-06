@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 910px){
+  
+    #home{
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 760px){
+    #home{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .desktop{
+        display: none;
+    }
+    
+    .icon-menu{
+        padding-right: 20px;
+        display: block;
+
+    }
+
+}
+
+@media screen and (max-width: 620px){
+    
+
+    
+}
