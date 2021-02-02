@@ -189,8 +189,10 @@ button i{
     width: 100%;
     height: 90vh;
     margin: 0 auto;
-    background-image: url('../imagens/pexels-rahul-695644.jpg');
-    background-size: cover;
+    /* background-image: url('../imagens/candelabro.gif'); */
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5),rgba(20, 20, 20, 0.5)100%), url('../imagens/candelabro.gif');
+
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
@@ -198,7 +200,7 @@ button i{
     
     
 }
-
+/* 
 .fantasma-1{
     z-index: 1;
     opacity: 0;
@@ -269,9 +271,9 @@ button i{
         left: 35%;
         top: 40%;
     }
-}
+} */
 
-/*conatiner apresentação*/
+/*container apresentação*/
 
 .container-apresentation{
     width: 100%;
