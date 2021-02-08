@@ -77,7 +77,6 @@ header#home .logo a{
 header#home .logo h3{
     font-family: "fontNight",sans-serif;
 	font-size: 20px;
-    color: ;
 	text-align: center;
     letter-spacing: 1px;
     text-shadow: 10px 10px 20px white;
@@ -225,10 +224,10 @@ video{
     height: 500px;
     background-image: url('../imagens/horror.png');
     background-size: 100% 100%;
-    /* background-position: center; */
+    /* background-position: center;
     background-repeat: no-repeat;
     animation: ghosttransition 20s infinite;
-}
+} 
 
 .fantasma-2{
     z-index: 1;
@@ -240,11 +239,11 @@ video{
     height: 500px;
     background-image: url('../imagens/horror2.png');
     background-size: 100% 100%;
-    /* background-position: center; */
+    /* background-position: center; 
     background-repeat: no-repeat;
     animation: ghosttransition2 50s infinite;
 }
-
+*/
 /*animação container*/
 
 @keyframes ghosttransition{
