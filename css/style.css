@@ -140,30 +140,49 @@ button i{
 
 /* MENU MOBILE */
 
-.icon-menu{
-    font-size: 50px;
-    color: white;
-    text-shadow: 1px 6px 12px red;
-    cursor: pointer; 
-    float: right;
+/* icon mobile */
+.btn-menu {
     display: none;
+    width: 65px;
+    height: 50px; 
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    padding: 10px;
+    cursor: pointer;
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; 
     -moz-transition-duration: 0.3s;
-   
+  }
+
+.btn-menu span {
+    height: 5px;
+    display: block;
+    margin-bottom: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px red;
 }
 
-.menu-mobile {transform: translateX(-270px);}
-.icon-menu {transform: translateX(0);}
+/* menu mobile */
+
+.menu-mobile {transform: translateX(270px);}
+.btn-menu {transform: translateX(0);}
+
+.btn-menu-active .menu-mobile {
+    transform: translateX(0);
+  }
+  
+  .btn-menu-active .btn-menu {
+    transform: translateX(-30px);
+    right: 0px;
+  }
 
 .menu-mobile{
-    display: none;
     right: 0;
     width:270px;
     height:100%;
     position: fixed;
     overflow: hidden;
-    /* overflox-y: auto; */
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; 
     -moz-transition-duration: 0.3s;
@@ -186,41 +205,26 @@ button i{
     text-decoration: none; 
 }
 
-.menu-mobile li:hover{
-    text-shadow: 5px 5px 5px white;
+.menu-mobile ul li:hover{
+    text-shadow: 5px 5px 5px red;
+    
 }
 
 
 /* CONTAINER APRESENTAÇÃO */
-.video{
-    position: fixed;
-    margin: 0 auto;
-    bottom: 0;
-    left: 0;
-    min-width: 80%;
-    min-height: 100%;
-    z-index: -1;
-
-}
-
-video{
-    width: 100%;
-    height: 300px;
-}
 
 .container-titulo{
-    position: relative;
     z-index: 999;
     width: 100%;
     height: 600px;
-    margin: 0 auto;
-    /* background-image: url('../imagens/candelabro.gif'); */
-    /* background-image: linear-gradient(rgba(20, 20, 20, 0.5),rgba(20, 20, 20, 0.5)100%), url('../imagens/candelabro.gif'); */
-    /* background-size: cover;
+    background-image: url('../imagens/candle-gif.gif');
+    background-size: cover;
     background-position: top;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     
 }
+
+/* GHOST ANIMATIONS */
 /* 
 .fantasma-1{
     z-index: 1;
@@ -254,7 +258,7 @@ video{
 */
 /*animação container*/
 
-@keyframes ghosttransition{
+/* @keyframes ghosttransition{
     0%{
         opacity: 0.1;
         left: 0%;
@@ -292,7 +296,7 @@ video{
         left: 35%;
         top: 40%;
     }
-} */
+}  */
 
 /*container apresentação*/
 
